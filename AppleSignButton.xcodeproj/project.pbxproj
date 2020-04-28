@@ -54,6 +54,7 @@
 		335E1673245750FD00194BF3 /* AppleSignButton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSignButton.entitlements; sourceTree = "<group>"; };
 		335E16762457512200194BF3 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		335E167A24575B0600194BF3 /* AppleSignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleSignInButton.swift; sourceTree = "<group>"; };
+		33D566FD2457FD88008411A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		335E1637245750C400194BF3 = {
 			isa = PBXGroup;
 			children = (
+				33D566FD2457FD88008411A4 /* README.md */,
 				335E1642245750C400194BF3 /* AppleSignButton */,
 				335E1659245750C600194BF3 /* AppleSignButtonTests */,
 				335E1664245750C600194BF3 /* AppleSignButtonUITests */,
