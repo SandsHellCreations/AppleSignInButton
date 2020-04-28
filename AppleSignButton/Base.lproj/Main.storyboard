@@ -15,29 +15,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kCn-27-Bxb" customClass="AppleSignButton" customModule="AppleSignButton" customModuleProvider="target">
-                                <rect key="frame" x="32" y="429" width="350" height="48"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kCn-27-Bxb" customClass="AppleSignInButton" customModule="AppleSignButton" customModuleProvider="target">
+                                <rect key="frame" x="32" y="722" width="350" height="48"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="TUR-W6-dE3"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJk-eD-2Vw" customClass="AppleSignInButton" customModule="AppleSignButton" customModuleProvider="target">
+                                <rect key="frame" x="32" y="790" width="350" height="48"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="b3O-Ja-HYi"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="type">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmX-cu-wb0" customClass="AppleSignInButton" customModule="AppleSignButton" customModuleProvider="target">
+                                <rect key="frame" x="32" y="654" width="350" height="48"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Awe-Gr-UfS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="type">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Demo" translatesAutoresizingMaskIntoConstraints="NO" id="fSG-Ef-sjD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="622"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="lJk-eD-2Vw" firstAttribute="top" secondItem="kCn-27-Bxb" secondAttribute="bottom" constant="20" id="1TP-uY-sX6"/>
+                            <constraint firstItem="fSG-Ef-sjD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GA7-sh-a5l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lJk-eD-2Vw" secondAttribute="bottom" constant="24" id="Hux-tE-ikw"/>
+                            <constraint firstItem="jmX-cu-wb0" firstAttribute="leading" secondItem="kCn-27-Bxb" secondAttribute="leading" id="MAE-vw-lge"/>
+                            <constraint firstItem="jmX-cu-wb0" firstAttribute="trailing" secondItem="kCn-27-Bxb" secondAttribute="trailing" id="QRR-Vd-xhd"/>
+                            <constraint firstItem="jmX-cu-wb0" firstAttribute="top" secondItem="fSG-Ef-sjD" secondAttribute="bottom" constant="32" id="Sva-bK-abH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kCn-27-Bxb" secondAttribute="trailing" constant="32" id="Uru-mI-mic"/>
+                            <constraint firstItem="lJk-eD-2Vw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="Z1f-j4-Gaf"/>
+                            <constraint firstItem="kCn-27-Bxb" firstAttribute="top" secondItem="jmX-cu-wb0" secondAttribute="bottom" constant="20" id="bLV-CY-h07"/>
+                            <constraint firstItem="fSG-Ef-sjD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eQ2-bF-PdF"/>
                             <constraint firstItem="kCn-27-Bxb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="neg-o4-3ef"/>
-                            <constraint firstItem="kCn-27-Bxb" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="xt6-xS-AUx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lJk-eD-2Vw" secondAttribute="trailing" constant="32" id="r83-QU-jGX"/>
+                            <constraint firstItem="fSG-Ef-sjD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sfF-Iq-JDm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="appleSignInBtn" destination="kCn-27-Bxb" id="NqH-MH-1mC"/>
+                        <outlet property="appleSignInBtn" destination="lJk-eD-2Vw" id="ozr-eK-e2p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="138"/>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Demo" width="979" height="886"/>
+    </resources>
 </document>
