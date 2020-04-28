@@ -7,6 +7,6 @@
 AppleSignInButton is a custom button class to use directly ASAuthorizationAppleIDButton from storyboard in just some seconds to get rid of a bunch of LOC from your viewcontroller and keep it clean.
 
 <p align="center">
-<img src="https://github.com//SandeepSpider811/AppleSignInButton/blob/master/AppleSignButton/Assets.xcassets/mockup.imageset/Poster.png?raw=true" alt="mockup.png" />
+<img src="https://raw.githubusercontent.com/SandsHellCreations/AppleSignInButton/master/AppleSignButton/Assets.xcassets/mockup.imageset/mockup.png" />
 </p>
 
