@@ -1,0 +1,10 @@
+/* 
+  Localizabel.strings
+  SocialLoginDemo
+
+  Created by Sandeep Kumar on 27/04/20.
+  Copyright © 2020 SandsHellCreations. All rights reserved.
+*/
+
+"SIGN_IN_FAILED_TITLE" = "Apple signin failed!";
+"APPLE_SIGN_IN_OK" = "OK";
