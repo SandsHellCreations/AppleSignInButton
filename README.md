@@ -8,6 +8,7 @@ AppleSignInButton is a custom button class to use directly ASAuthorizationAppleI
 <p align="center">
 <img src="https://raw.githubusercontent.com/SandsHellCreations/AppleSignInButton/master/AppleSignButton/Assets.xcassets/mockup.imageset/mockup.png" />
 </p>
+
 ## Installation
 
 ### CocoaPods:
